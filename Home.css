@@ -1,0 +1,189 @@
+.Login{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border: 10px solid rgb(221, 221, 221);
+  margin-left: 20px;
+}
+.Loginbtn{
+  display: flex;
+  height: 44.5px;
+  border: 10px solid rgb(221, 221, 221);
+  border-left: none;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background-color: rgb(143, 111, 111);
+  color: white;
+}
+.Id{
+  border: none;
+}
+.Pw{
+  border: none;
+}
+.blank{
+  height: 10px;
+  margin-top: 1px;
+  background-color: rgb(221, 221, 221);
+}
+/* 위에까지 로그인 */
+
+
+
+.container_1{
+  display: flex;
+}
+
+.container_1 > div{
+  background-color: rgb(143, 111, 111);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0px 0 50px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* 위에까지 학과소개, 진로예측, 커뮤니티 임 !!  */
+
+
+
+.preview{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 230px;
+  background-color: white;
+}
+
+.preview > div{
+  background-color: rgb(221, 221, 221);
+  width: 210px;
+  height: 100px;
+  margin: 10px 10px 10px 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.white{
+  background-color: white;
+  margin: 9px 0 0 0;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/* 위에까지가 게시글1 2 3 임  */
+
+.container_2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.anything{
+  display: flex;
+  width: 520px;
+  height: 222px;
+  /* background-color: rgb(221, 221, 221); */
+  margin: 60px 30px 0 30px;
+  flex-direction: column;
+}
+
+.img{
+  width: 100px;
+  margin-top: 50px;
+}
+
+.img > img{
+  width: 80px;
+}
+
+.container_2_title{
+  background-color: rgb(114, 92, 92);
+  color: white;
+  justify-content: center;
+  display: flex;
+  width: 160pt;
+  margin: 30px 0 0 30px;
+  border-radius: 10px;
+}
+
+/* 아무거나로 채우기 */
+
+
+
+.main{
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 0 0 50px 0;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.main_long{
+  background-color: rgb(107, 79, 79);
+  height: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+/* 밑에 이거 모든 링크 밑줄 없애려고 넣음  */
+.link{
+  text-decoration-line: none;
+  color: white;
+}
+
+/* 밑에 이건 그.. 버튼크기랑 link 크기 달라서 클릭이 이상하게 되길래,,, 일단넣음  */
+.container_1_btn > .link{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_1_btn:hover{
+  background-color: rgb(88, 72, 72);
+}
+
+.Loginbtn>button:hover{
+  background-color: rgb(88, 72, 72);
+}
+
+
+
+.play{
+  display: flex;
+  text-decoration-line: none;
+  color: black;
+  height: 100%;
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 72, 72);
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.play:hover{
+  background-color: rgb(53, 44, 44);
+}

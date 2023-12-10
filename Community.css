@@ -1,0 +1,81 @@
+.main_2{
+  background-color: white;
+  display: flex;
+  width: 400px;
+  height: 500pt;
+  border: 1px solid black;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.main_long_2{
+  background-color: rgb(107, 79, 79);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  min-height: 80px;
+  font-size: 30px;
+  color: white;
+  position: fixed;
+}
+
+.write_div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.write_btn{
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 115px 0 0 170px;
+}
+
+.write_btn:hover{
+  background-color: rgb(88, 72, 72);
+}
+
+.input_search{
+  margin: 30px 0 0 50px;
+  width: 290px;
+  height: 20px;
+}
+
+.UDbtns > button{
+  margin-top: 5px;
+}
+
+.home_btn{
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 0 60px 0 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: rgb(117, 61, 61);
+}
+
+.home_btn:hover{
+  background-color: rgb(168, 154, 154);
+  color: white;
+}
+
+.home_link{
+  width: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+  text-decoration-line: none;
+}
+
+.cmudiv{
+  margin-left: 65px;
+}
+
+.UD_btn:hover{
+  background-color: rgb(88, 72, 72);
+}

@@ -1,0 +1,41 @@
+.title_input{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 0 0 50px;
+}
+
+.up_title{
+  height: 20px;
+}
+
+.input_margin{
+  margin-top: 5px;
+  height: 50px;
+}
+
+.end_btn{
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 0 0 5px;
+}
+
+.end_btn_1{
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px 0 0 225px;
+}
+
+.btns{
+  display: flex;
+}
+
+.end_btn_1:hover{
+  background-color: rgb(88, 72, 72);
+}
+
+.end_btn:hover{
+  background-color: rgb(88, 72, 72);
+}

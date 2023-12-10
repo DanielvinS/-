@@ -1,0 +1,94 @@
+.main_1{
+  background-color: white;
+  display: flex;
+  width: 400px;
+  height: 350pt;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.main_long_1{
+  background-color: rgb(107, 79, 79);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  color: white;
+}
+/* 위에까지 윗쪽 바 */
+
+.l_mg_1{
+  margin-left: 55px;
+}
+
+.l_mg_2{
+  margin-left: 25px;
+}
+
+
+.middle{
+  background-color: rgb(245, 239, 239);
+  width: 100%;
+  height: 100%;
+}
+
+.a_title{
+  font-size: 20px;
+  text-decoration-line: none;
+  color: black;
+  margin-left: 20px;
+  display: flex;
+  width: 300px;
+  height: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.a_title:hover{
+  color: rgb(197, 145, 132);
+}
+
+.li > a:hover{
+  color: rgb(197, 145, 132);
+}
+
+li::marker{
+  color: rgb(100, 57, 57);
+}
+
+li > a{
+  color: black;
+  text-decoration-line: none;
+}
+
+.li{
+  margin: 10px;
+}
+
+.move{
+  margin-left: 40px;
+  color: rgb(189, 169, 169);
+}
+
+.back{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.backbtn{
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+
+.md_1{
+  font-size: 20px;
+  margin: 15px 0 18px 20px;
+}
